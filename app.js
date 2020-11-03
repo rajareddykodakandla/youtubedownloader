@@ -15,7 +15,7 @@ app.listen(PORT,(req, res)=> {
     console.log(`server is running at ${PORT}`);
 })
 
-app.get("/home", (req, res) => {
+app.get("/", (req, res) => {
     res.render("index")
 })
  
