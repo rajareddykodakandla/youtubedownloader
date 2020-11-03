@@ -1,0 +1,29 @@
+{
+  "name": "whatsappbackend",
+  "version": "1.0.0",
+  "description": "chat application backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "raja reddy",
+  "license": "ISC",
+  "dependencies": {
+    "@ytdl/ytdl": "^1.4.16",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "ffmpeg": "0.0.4",
+    "ffprobe": "^1.1.2",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "mongoose": "^5.10.11",
+    "nodemon": "^2.0.6",
+    "querystring": "^0.2.0",
+    "uuid": "^8.3.1",
+    "ytdl-core": "^4.0.2"
+  }
+}
